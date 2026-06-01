@@ -3,11 +3,10 @@ stages:
     cmd: airbnb-ops run
     deps:
       - src/airbnb_ops
-      - data/raw/listing_sample.csv
+      - data/raw/listings_sample.csv
       - data/raw/neighbourhood_segments.csv
     outs:
       - data/processed/airbnb_neighbourhood_summary.csv
     metrics:
       - reports/hw01_a_run_report.md:
-        cache: false
-        
+          cache: false

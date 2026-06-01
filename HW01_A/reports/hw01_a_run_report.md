@@ -9,8 +9,8 @@
     - Number of input rows:8
     - Listing input columns:Index(['listing_id', 'neighbourhood', 'price', 'minimum_nights',
        'availability_365', 'number_of_reviews', 'host_key'],
-      dtype='str')
-    - Segment input columns:Index(['neighbourhood', 'tourism_segment', 'priority_level'], dtype='str')
+      dtype='object')
+    - Segment input columns:Index(['neighbourhood', 'tourism_segment', 'priority_level'], dtype='object')
 
     ## PII Handling
 
@@ -34,7 +34,7 @@
     - Output columns:Index(['neighbourhood', 'num_listings', 'avg_price', 'median_price',
        'avg_minimum_nights', 'availability_365_avg', 'total_reviews',
        'reviews_per_listing', 'tourism_segment', 'priority_level'],
-      dtype='str')
+      dtype='object')
 
     ## Output Files path
     - reports/hw01_a_run_report.md
