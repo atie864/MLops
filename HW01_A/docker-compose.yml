@@ -1,0 +1,7 @@
+services:
+  airbnb-ops:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    command: airbnb-ops run
