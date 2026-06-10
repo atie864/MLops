@@ -1,0 +1,8 @@
+table,column,pii_type,decision,reason
+listing,listing_id,entity identifier,keep as entity key only,needed to define one row per listing; not a model input
+listing,host_id,direct identifier,drop after join,links directly to a host; not safe as a model feature
+host,host_pseudo_id,pseudonymous identifier,drop,pseudonymous but still an individual-level identifier; not a model feature
+listing,license,regulatory identifier,drop,may identify a specific host or property; not useful as an ML feature
+review,review_id,entity identifier,drop,row-level review identifier; only aggregates are used
+review,reviewer_id,direct identifier,drop,identifies individual reviewer; not a model input
+review,reviewer_pseudo_id,pseudonymous identifier,drop,pseudonymous but still individual-level; not a model feature
