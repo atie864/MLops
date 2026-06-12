@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ataran/MLOps/HW2/HW02_B/mlruns/0/c8771c16b0a14c9fab3c48457bae9465/artifacts
+end_time: 1781267800974
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8771c16b0a14c9fab3c48457bae9465
+run_name: v0_leaky_logistic_regression
+run_uuid: c8771c16b0a14c9fab3c48457bae9465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781267800906
+status: 4
+tags: []
+user_id: ataran

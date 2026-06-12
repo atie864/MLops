@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ataran/MLOps/HW2/HW02_B/mlruns/0/879501d4e74e4f95842a6ad5b1aadcbf/artifacts
+end_time: 1781267806764
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 879501d4e74e4f95842a6ad5b1aadcbf
+run_name: v1_dummy_baseline
+run_uuid: 879501d4e74e4f95842a6ad5b1aadcbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781267806701
+status: 4
+tags: []
+user_id: ataran
