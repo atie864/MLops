@@ -1,0 +1,6 @@
+run id = c930c722d3674bf68497fc149c8d9a13
+
+The API was implemented using FastAPI and served with Uvicorn. The model was loaded directly from the MLflow tracking server using the run ID specified above.
+Leakage and audit fields are rejected by the API at the schema validation level, and all five required endpoints are fully functional and tested via Swagger at http://127.0.0.1:8000/docs.
+All required Swagger screenshots are included in the screenshots/ directory. The responses for each data file in data/ are saved under screenshots/responses/.
+
